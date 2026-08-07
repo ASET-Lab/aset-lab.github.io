@@ -60,7 +60,7 @@ A tool for prototyping and comparing LLM-based mutation testing approaches.
 
 ---
 
-### Mutest-rs
+### mutest-rs
 
 A mutation testing framework for Rust.
 
