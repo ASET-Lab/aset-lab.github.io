@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"foster":
+  - firstname: ["Michael", "M.", "J."]
+    url: https://jmafoster1.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"walkinshaw":
+  - firstname: ["Neil", "N."]
+    url: https://neilwalkinshaw.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"osikowicz":
+  - firstname: ["Olek", "O."]
+    url: https://olek-osikowicz.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"shin":
+  - firstname: ["Donghwan", "D."]
+    url: https://www.dshin.info/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"pennada":
+  - firstname: ["Sanjeetha", "S."]
+    url: https://www.linkedin.com/in/sanjeetha-pennada/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"maton":
+  - firstname: ["Megan", "M."]
+    url: https://mgnmtn.github.io/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"mcminn":
+  - firstname: ["Phil", "P."]
+    url: https://philmcminn.com/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"levai":
+  - firstname: ["Zalan", "Z."]
+    url: https://zalanlevai.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"bogdanov":
+  - firstname: ["Kirill", "K."]
+    url: https://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/
