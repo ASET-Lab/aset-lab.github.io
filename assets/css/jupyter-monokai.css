@@ -387,6 +387,13 @@ div.panel,
   box-shadow: none;
 }
 
+div.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
 input,
 button,
 select,
