@@ -1,35 +1,135 @@
-"foster":
-  - firstname: ["Michael", "M.", "J."]
-    url: https://jmafoster1.github.io/
-
+# Hog
 "walkinshaw":
   - firstname: ["Neil", "N."]
+    lastname: "Walkinshaw"
+    title: "Dr."
     url: https://neilwalkinshaw.github.io/
+    role: "Head of Group"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2023-07/CS_Headshots_02.jpg
 
-"osikowicz":
-  - firstname: ["Olek", "O."]
-    url: https://olek-osikowicz.github.io/
-
-"shin":
-  - firstname: ["Donghwan", "D."]
-    url: https://www.dshin.info/
-
-"pennada":
-  - firstname: ["Sanjeetha", "S."]
-    url: https://www.linkedin.com/in/sanjeetha-pennada/
-
-"maton":
-  - firstname: ["Megan", "M."]
-    url: https://mgnmtn.github.io/
-
+# Academics
 "mcminn":
   - firstname: ["Phil", "P."]
+    lastname: "McMinn"
     url: https://philmcminn.com/
+    title: "Prof."
+    role: "Academics"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2020-03/Phil-McMinn.jpeg
 
-"levai":
-  - firstname: ["Zalan", "Z."]
-    url: https://zalanlevai.com/
+"hierons":
+  - firstname: ["Robert", "R."]
+    lastname: "Hierons"
+    url: https://sheffield.ac.uk/cs/people/academic/rob-hierons
+    title: "Prof."
+    role: "Academics"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2020-03/Rob-Hierons.jpeg
+
+"rojas":
+  - firstname: ["José Miguel", "J. M."]
+    lastname: "Rojas"
+    url: https://jmrojas.github.io/
+    title: "Dr."
+    role: "Academics"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2022-04/me-square.jpg
 
 "bogdanov":
   - firstname: ["Kirill", "K."]
+    lastname: "Bogdanov"
     url: https://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/
+    title: "Dr."
+    role: "Academics"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2020-09/Kirill-Bogdanov1.jpg
+
+"shin":
+  - firstname: ["Donghwan", "D."]
+    lastname: "Shin"
+    url: https://www.dshin.info/
+    title: "Dr."
+    role: "Academics"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2023-07/CS_Headshots_09.jpg
+
+# Post docs
+
+"foster":
+  - firstname: ["Michael", "M.", "J."]
+    lastname: "Foster"
+    url: https://jmafoster1.github.io/
+    role: "Postdoctoral Researchers"
+    title: "Dr."
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2025-04/Michael%20Foster%20COM.jpg
+
+"pennada":
+  - firstname: ["Sanjeetha", "S."]
+    lastname: "Pennada"
+    url: https://www.linkedin.com/in/sanjeetha-pennada/
+    role: "Postdoctoral Researchers"
+    title: "Dr."
+    img: "../assets/img/people/sanjeetha.jpeg"
+
+"maton":
+  - firstname: ["Megan", "M."]
+    lastname: "Maton"
+    url: https://mgnmtn.github.io/
+    role: "Postdoctoral Researchers"
+    title: "Dr."
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2026-04/headshot-square.JPG
+
+# PhD Students 
+"neri":
+  - firstname: ["Julia", "J."]
+    lastname: "Neri"
+    url: https://sheffield.ac.uk/ijc/people/academic-staff/julia-neri
+    role: "PhD Students"
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2026-07/headshot%20-%20Julia%20GR%20Neri.jpg
+
+"lou":
+  - firstname: ["Guannan", "G."]
+    lastname: "Lou"
+    role: "PhD Students"
+    img: "../assets/img/people/placeholder.webp"
+
+"bolton":
+  - firstname: ["Harry J", "H."]
+    lastname: "Bolton"
+    role: "PhD Students"
+    img: "../assets/img/people/placeholder.webp"
+
+"hogg":
+  - firstname: ["Joel", "J."]
+    lastname: "Hogg"
+    role: "PhD Students"
+    img: "../assets/img/people/placeholder.webp"
+
+"winteringham":
+  - firstname: ["Mark W", "M."]
+    lastname: "Winteringham"
+    role: "PhD Students"
+    img: "../assets/img/people/placeholder.webp"
+
+"shaw":
+  - firstname: ["Nathan", "N."]
+    lastname: "Shaw"
+    url: https://www.linkedin.com/in/nathan-shaw-s01
+    role: "PhD Students"
+    img: "../assets/img/people/nathan.jpg"
+
+"osikowicz":
+  - firstname: ["Olek", "O."]
+    lastname: "Osikowicz"
+    url: https://olek-osikowicz.github.io/
+    role: "PhD Students"
+    img: "../assets/img/people/olek.jpg"
+
+"chaudhry":
+  - firstname: ["Rimsha", "R."]
+    lastname: "Chaudhry"
+    role: "PhD Students"
+    img: "../assets/img/people/placeholder.webp"
+
+"levai":
+  - firstname: ["Zalán", "Zalan", "Z."]
+    lastname: "Lévai"
+    url: https://zalanlevai.com/
+    role: "PhD Students"
+    img: https://zalanlevai.com/images/zalanlevai.jpeg
+
