@@ -98,7 +98,7 @@
   - firstname: ["Joel", "J."]
     lastname: "Hogg"
     role: "PhD Students"
-    img: "../assets/img/people/placeholder.webp"
+    img: "../assets/img/people/joel.jpg"
 
 "winteringham":
   - firstname: ["Mark W", "M."]
