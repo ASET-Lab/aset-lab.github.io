@@ -36,5 +36,5 @@ Much of our research is geared towards the growing role of AI in the software-de
 ## Recent Papers
 
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% bibliography --group_by none --max 5 %}
 </div>

@@ -2,6 +2,7 @@
 "walkinshaw":
   - firstname: ["Neil", "N."]
     lastname: "Walkinshaw"
+    orcid: "0000-0003-2134-6548"
     title: "Dr."
     url: https://neilwalkinshaw.github.io/
     role: "Head of Group"
@@ -11,6 +12,7 @@
 "mcminn":
   - firstname: ["Phil", "P."]
     lastname: "McMinn"
+    orcid: "0000-0001-9137-7433"
     url: https://philmcminn.com/
     title: "Prof."
     role: "Academics"
@@ -19,6 +21,7 @@
 "hierons":
   - firstname: ["Robert", "R."]
     lastname: "Hierons"
+    orcid: "0000-0002-4771-1446"
     url: https://sheffield.ac.uk/cs/people/academic/rob-hierons
     title: "Prof."
     role: "Academics"
@@ -27,6 +30,7 @@
 "rojas":
   - firstname: ["José Miguel", "J. M."]
     lastname: "Rojas"
+    orcid: "0000-0002-0079-5355"
     url: https://jmrojas.github.io/
     title: "Dr."
     role: "Academics"
@@ -35,6 +39,7 @@
 "bogdanov":
   - firstname: ["Kirill", "K."]
     lastname: "Bogdanov"
+    orcid: "0000-0003-3156-0695"
     url: https://staffwww.dcs.shef.ac.uk/people/K.Bogdanov/
     title: "Dr."
     role: "Academics"
@@ -43,6 +48,7 @@
 "shin":
   - firstname: ["Donghwan", "D."]
     lastname: "Shin"
+    orcid: "0000-0002-0840-6449"
     url: https://www.dshin.info/
     title: "Dr."
     role: "Academics"
@@ -53,6 +59,7 @@
 "foster":
   - firstname: ["Michael", "M.", "J."]
     lastname: "Foster"
+    orcid: "0000-0001-8233-9873"
     url: https://jmafoster1.github.io/
     role: "Postdoctoral Researchers"
     title: "Dr."
@@ -61,6 +68,7 @@
 "pennada":
   - firstname: ["Sanjeetha", "S."]
     lastname: "Pennada"
+    orcid: "0000-0003-4650-862X"
     url: https://www.linkedin.com/in/sanjeetha-pennada/
     role: "Postdoctoral Researchers"
     title: "Dr."
@@ -69,6 +77,7 @@
 "maton":
   - firstname: ["Megan", "M."]
     lastname: "Maton"
+    orcid: "0009-0005-8817-4279"
     url: https://mgnmtn.github.io/
     role: "Postdoctoral Researchers"
     title: "Dr."
@@ -85,6 +94,7 @@
 "lou":
   - firstname: ["Guannan", "G."]
     lastname: "Lou"
+    orcid: "0000-0001-7933-0202"
     role: "PhD Students"
     img: "../assets/img/people/placeholder.webp"
 
@@ -97,18 +107,21 @@
 "hogg":
   - firstname: ["Joel", "J."]
     lastname: "Hogg"
+    orcid: "0009-0005-5419-3324"
     role: "PhD Students"
     img: "../assets/img/people/joel.jpg"
 
 "winteringham":
   - firstname: ["Mark W", "M."]
     lastname: "Winteringham"
+    orcid: "0009-0001-4464-0021"
     role: "PhD Students"
     img: "../assets/img/people/placeholder.webp"
 
 "shaw":
   - firstname: ["Nathan", "N."]
     lastname: "Shaw"
+    orcid: "0009-0006-6091-2214"
     url: https://www.linkedin.com/in/nathan-shaw-s01
     role: "PhD Students"
     img: "../assets/img/people/nathan.jpg"
@@ -129,6 +142,7 @@
 "levai":
   - firstname: ["Zalán", "Zalan", "Z."]
     lastname: "Lévai"
+    orcid: "0009-0003-4173-8562"
     url: https://zalanlevai.com/
     role: "PhD Students"
     img: https://zalanlevai.com/images/zalanlevai.jpeg
