@@ -1,0 +1,46 @@
+name: Update publications from ORCID
+
+on:
+  schedule:
+    - cron: "0 5 * * 1" # Monday 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write # commit _bibliography/orcid.bib
+  actions: write # trigger the deploy workflow
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate _bibliography/orcid.bib
+        run: python bin/update_orcid_publications.py
+
+      - name: Commit, push and redeploy if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add _bibliography/orcid.bib
+          if git diff --staged --quiet; then
+            echo "ℹ️ No new publications." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git commit -m "Update publications from ORCID"
+          git push
+          # Pushes made with GITHUB_TOKEN do not trigger other workflows, but workflow_dispatch does.
+          gh workflow run deploy.yml --ref "${{ github.ref_name }}"
+          echo "✅ Publications updated and deploy triggered." >> $GITHUB_STEP_SUMMARY
