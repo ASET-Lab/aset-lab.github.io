@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "The AI x Software Engineering & Testing Lab<br>School of Computer Science, University of Sheffield"
+subtitle: "The AI x Software Engineering & Testing Lab<br><a href='https://sheffield.ac.uk/cs'>School of Computer Science</a>, <a href='https://sheffield.ac.uk/'>University of Sheffield</a>"
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
