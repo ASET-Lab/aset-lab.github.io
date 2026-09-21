@@ -31,6 +31,12 @@ Much of our research is geared towards the growing role of AI in the software-de
   </div>
 </div>
 
+{% for pair in site.data.coauthors %}{% assign member = pair[1].first %}{% if member.role == "Head of Group" %}{% assign head_email = member.email %}{% endif %}{% endfor %}
+
+### Working with practitioners
+
+Our goal is to develop solutions that address significant Software Engineering and Testing challenges. As such we are always keen to work with industrial partners in the tech community to develop novel solutions that will make an impact. Collaborations can take on a variety of shapes and sizes, from short-term student projects to Ph.D. studentships or more formal collaborative research projects. If you are interested in working with us, please [contact us](mailto:{{ head_email }})!
+
 ## News
 
 {% include news.liquid limit=true %}
