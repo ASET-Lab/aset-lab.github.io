@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: School of Computer Science, University of Sheffield
+subtitle: "The AI x Software Engineering & Testing Lab<br>School of Computer Science, University of Sheffield"
 
 profile:
   align: right
