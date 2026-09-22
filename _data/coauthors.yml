@@ -57,15 +57,6 @@
 
 # Post docs
 
-"foster":
-  - firstname: ["Michael", "M.", "J."]
-    lastname: "Foster"
-    orcid: "0000-0001-8233-9873"
-    url: https://jmafoster1.github.io/
-    role: "Postdoctoral Researchers"
-    title: "Dr."
-    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2025-04/Michael%20Foster%20COM.jpg
-
 "pennada":
   - firstname: ["Sanjeetha", "S."]
     lastname: "Pennada"
@@ -83,6 +74,17 @@
     role: "Postdoctoral Researchers"
     title: "Dr."
     img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2026-04/headshot-square.JPG
+
+# Research Software Engineers
+
+"foster":
+  - firstname: ["Michael", "M.", "J."]
+    lastname: "Foster"
+    orcid: "0000-0001-8233-9873"
+    url: https://jmafoster1.github.io/
+    role: "Research Software Engineers"
+    title: "Dr."
+    img: https://sheffield.ac.uk/sites/default/files/styles/profile_modal/public/2025-04/Michael%20Foster%20COM.jpg
 
 # PhD Students 
 "neri":

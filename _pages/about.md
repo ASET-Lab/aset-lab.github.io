@@ -18,6 +18,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  /* Homepage heading and subtitle (the about layout has no _styles support) */
+  .post-header .post-title { font-weight: 700; }
+  .post-header .desc { font-weight: 700; font-size: 1.25rem; line-height: 1.4; }
+</style>
+
+
 We develop and evaluate practical software engineering techniques to support the efficient development of robust, maintainable software and cyber-physical systems. 
 
 Much of our research is geared towards the growing role of AI in the software-development lifecycle, from agentic software development through to systems such as autonomous vehicles that themselves incorporate AI into their core functionality.
