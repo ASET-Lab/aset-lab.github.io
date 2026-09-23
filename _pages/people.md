@@ -44,6 +44,7 @@ _styles: >
             <h6>
               {% if member.url %}<a href="{{ member.url }}" target="_blank" rel="noopener" style="text-decoration: none;">{{ full_name }}</a>{% else %}<span style="color: var(--global-text-color);">{{ full_name }}</span>{% endif %}
             </h6>
+            {% if member.head_of_group %}<div class="text-muted" style="font-size: 0.85rem; margin-top: -0.35rem;">(Head of group)</div>{% endif %}
           </div>
         </div>
       </div>

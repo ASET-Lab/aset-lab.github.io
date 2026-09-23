@@ -38,7 +38,7 @@ Much of our research is geared towards the growing role of AI in the software-de
   </div>
 </div>
 
-{% for pair in site.data.coauthors %}{% assign member = pair[1].first %}{% if member.role == "Head of Group" %}{% assign head_email = member.email %}{% endif %}{% endfor %}
+{% for pair in site.data.coauthors %}{% assign member = pair[1].first %}{% if member.head_of_group %}{% assign head_email = member.email %}{% endif %}{% endfor %}
 
 ### Working with practitioners
 
