@@ -1,6 +1,9 @@
-_site
-.bundle
+
+# Python bytecode from bin/ helper scripts
+*.pyc
+.DS_Store
 .DS_store
+.bundle
 .idea
 .jekyll-cache
 .jekyll-metadata
@@ -8,14 +11,12 @@ _site
 .sass-cache
 .tweet-cache
 .venv
+__pycache__/
+_site
+al-folio-upgrade-report.md
 assets/libs/
 assets/rendercv/rendercv_output/*.typ
-al-folio-upgrade-report.md
 node_modules/
 output/playwright/
 test-results/
 vendor
-
-# Python bytecode from bin/ helper scripts
-__pycache__/
-*.pyc
